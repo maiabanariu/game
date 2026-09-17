@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "PLAY SMART",
+    "slug": "PlaySmart",
+    "version": "2.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/favicon.png",
+    "scheme": "birthday",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon":  "./assets/images/favicon.png"
+      
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage":  "./assets/images/favicon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0b4f9c",
+          "image": "./assets/images/Black_colour.jpg",
+          "imageWidth": 76
+        }
+      ],
+      "expo-audio",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

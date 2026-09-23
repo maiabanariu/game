@@ -191,7 +191,7 @@ export default function App() {
       <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
         {!started ? (
           <View style={[styles.centeredPage, { paddingVertical: 100 }]}>
-            <Text style={styles.eyebrow}>BIRTHDAY SPECIAL</Text>
+            <Text style={styles.eyebrow}>SPECIAL MISSION</Text>
             <Text style={[styles.title, { textAlign: 'center', marginTop: 10 }]}>Hey there,</Text>
             <Text style={[styles.description, { textAlign: 'center', fontSize: 18, marginBottom: 35 }]}>
               This game is for you, after you finish it you will get a trophy.
